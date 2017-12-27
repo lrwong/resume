@@ -16,12 +16,20 @@ body,
 .landing,
 #intro {
     height: 100%;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 #intro {
-    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    /*background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.portrait {
+    max-height: 25em;
+    margin: auto;
+    /*border: 1px gray solid;*/
+    /*margin-top: 10em;*/
 }
